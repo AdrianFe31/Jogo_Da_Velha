@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/fundo1.png);
+    background-size: 800px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    color: #f1f1f1;
+    margin-top: 15px;
+}
+
+fieldset {
+    text-align: center;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #FFF;
+}
+table {
+    width: 300px;
+    height: 300px;
+}
+
+tr, td {
+    border: 3px solid #FFF;
+}
+
+.row:nth-child(1),
+.row:nth-child(2),
+.row:nth-child(3) {
+    border-top: none;
+}
+
+.column:nth-child(1),
+.column:nth-child(1),
+.column:nth-child(1) {
+    border-left: none;
+}
+
+.baixo:nth-child(3),
+.baixo:nth-child(6),
+.baixo:nth-child(9) {
+    border-right: none;
+}
+
+.ult:nth-child(1),
+.ult:nth-child(2),
+.ult:nth-child(3) {
+    border-bottom: none;
+}
